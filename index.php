@@ -60,7 +60,7 @@
                     <div class="carousel-item slider-home">
                         <img src="assets/img/slider2.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
-                    <div class="carousel-item slider-home">                    
+                    <div class="carousel-item slider-home">  
                         <img src="assets/img/slider3.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                 </div>
@@ -74,6 +74,7 @@
                 </button>
             </div>           
         </section>
+        
         <section>
             <div class="container">
                 <div class="row div-cards">
@@ -84,7 +85,8 @@
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
+                    <iframe style="padding-top: 15px" width="100%" height="auto" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                        <!-- <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap"> -->
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -96,7 +98,7 @@
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb3.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
