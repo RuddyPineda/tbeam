@@ -4,89 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tbeam</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">     
 </head>
 <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-                    <a class="navbar-brand" href="#" >
-                        <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
     
-                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                          
-                        <li class="nav-item active">
-                            <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal"><i class="fa fa-home" aria-hidden="true" style="background:red"></i>Ingresar <span class="sr-only">(current)</span></a>
-                         </li>
-                        
-                        <li class="nav-item active">
-                            <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarte</a>
-                        </li>
-      
-                        <li class="nav-item">
-                            <a href="views/blog.php" class="nav-link">Blog</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+        <a class="navbar-brand" href="#" >
+            <img src="assets/img/tb0.jpg" alt="" style="height: 60px; border-radius: 50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                
+            <li class="nav-item active">
+                <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal">Ingresar <span class="sr-only">(current)</span></a>
+                </li>
             
-                        </li>
-                        
-                        <!-- </ul>
-                           <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                           </form>
-                       </div> -->
-                </nav>
-            </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarte</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="views/blog.php" class="nav-link">Blog</a>
+
+            </li>
             
-        </div> 
-    </div>
+            <!-- </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div> -->
+    </nav>
+
 </header>
 <body >
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col
-                     w-100" >
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner mt-1">
-                                <div class="carousel-item active slider-home1">
-                                    <img src="assets/img/gmail.png" class="d-block w-100 img-slider"> 
-                                </div>
-                                <div class="carousel-item slider-home2">
-                                    <img src="assets/img/BLOG.png" class="d-block w-100 img-slider" alt="...">
-                                </div>
-                                <div class="carousel-item slider-home3">                    
-                                    <img src="assets/img/BLOG.png" class="d-block w-100 img-slider" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </button>
-                        </div>
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner mt-1">
+                    <div class="carousel-item active slider-home">
+                        <img src="assets/img/slider1.jpg" class="d-block w-100 img-slider"> 
+                    </div>
+                    <div class="carousel-item slider-home">
+                        <img src="assets/img/slider2.jpg" class="d-block w-100 img-slider" alt="...">
+                    </div>
+                    <div class="carousel-item slider-home">                    
+                        <img src="assets/img/slider3.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>           
+        </section>
+        <section>
+            <div class="container">
+                <div class="row div-cards">
+                    <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
+                        <img class="card-img-top" src="/assets/img/tb1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/img/tb4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
+                        <img class="card-img-top" src="/assets/img/tb3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/img/tb5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/img/tb6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <br><br><br>
 </body>
 <footer style="background:ligth; margin-top:15px">
@@ -119,7 +150,7 @@
                      <form>
                     <div class="form-group">
                       <label for="usuario" name="usuario" class="col-form-label">Usuario</label>
-                      <input type="text" class="form-control" id="recipient-name">
+                      <input type="week" class="form-control" id="recipient-name">
                     </div>
                     <div class="form-group">
                      <label for="contraseña" name="contraseña" class="col-form-label">Contraseña</label>
