@@ -10,65 +10,69 @@
      <link rel="stylesheet" href="assets/css/styles_quienessomos.css">
 </head>
 <body >
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-                    <a class="navbar-brand" href="#" >
-                        <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+            <a class="navbar-brand" href="#" >
+                <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
+            </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                </button>
     
-                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav mr-auto">
                           
-                        <li class="nav-item active">
+                    <li class="nav-item active">
                             <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal">Ingresar <span class="sr-only">(current)</span></a>
-                         </li>
+                    </li>
                         
-                        <li class="nav-item active">
+                    <li class="nav-item active">
                             <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarte</a>
-                        </li>
+                    </li>
       
-                        <li class="nav-item">
-                            <a href="views/blog.php" class="nav-link">Blog</a>
+                    <li class="nav-item">
+                            <a href="../blog.php" class="nav-link">Blog</a>
             
-                        </li>
+                     </li>
                         
-                        </ul>
-                           <form class="form-inline my-2 my-lg-0">
+                </ul>
+                    <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                           </form>
-                       </div>
-                </nav>
-            </div>
-        </div>
+                    </form>
+             </div>
+        </nav>
     </div>
-    <div class="container">
-  <head>
-    <h1 class=" m-3 p-2 d-block text-info font-italic">Conociendo Gmail.</h1> <hr>
-    <p>Lecciones:</p>
-    <p class="text-secondary">ACTIVIDADES DE CLASE</p> <hr>
-  </head>
+        
+    
+    <body>
+        <main>
+            <section class="ml-5 p-4">
+          
+                <h1 class=" m-3 p-2 d-block text-info font-italic">Conociendo Gmail.</h1> <hr>
+                <p>Lecciones:</p>
+                <p class="text-secondary">ACTIVIDADES DE CLASE</p> <hr>
   
-    <section>
-       <div id="contenidogmai2">
-         <h5 class="text-info sm ">contenido:</h5>
-         <h3 class=" d-block bg-ligth text-black">ENTORNO GMAIL</h3> <hr>
-         <p class="m-3">en este espacio encontraras las diapositivas a socializar</p>
-
-        </div>
-        <div class="card m-2 p-3">
-          <div class="card-header" role="tab">
-             <h5>
-             <a href="#"  class="text-info" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">diapositivasentotnoGmail.pttx </a>
-             </h5>
-          </div>
-   </section>
-   <footer style="background:ligth; margin-top:40px">
+  
+                <section class="">
+                    <div id="contenidogmai2">
+                        <h5 class="text-info sm ">contenido:</h5>
+                        <h3 class=" d-block bg-ligth text-black">ENTORNO GMAIL</h3> <hr>
+                        <p class="m-3">en este espacio encontraras las diapositivas a socializar</p>
+                   </div>
+                   <div class="card col-md-3" style="width: 18rem;">
+                    <iframe style="padding-top: 15px" width="100%" height="auto" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                        <!-- <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </section>      
+            </section>
+        </main>
+   </body>
+   <footer style="background:ligth; margin-top:80px">
         <div class="row footer_father" >
         <div id="pie">
             <div id="centro-pie">

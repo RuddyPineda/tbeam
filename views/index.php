@@ -8,11 +8,11 @@
   <title>Document</title>
   <script src="https://kit.fontawesome.com/c48814ca9b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 
 </head>
 <header>
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
     <div class="row">
       <div class="col-md-12">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,18 +40,18 @@
         </nav>
       </div>
     </div>
-  </div>
+</nav>
 </header>
 
 <body>
-  <div class="container">
-    <div class="row">
+  <main>
+    <section>
       <div class="col-md-12">
 
         <div id="conteItemCarrusel">
           <div class="containerslider" id="itemcarrusel1">
             <div class="tarjetacarrusel" id="tarjeta1">
-              <img src="/assets/img/carrusel5.jpg" alt="">
+              <img src="../assets/img/carrusel5.jpg" alt="">
             </div>
             <div class="flechascarrusel">
               <a href="#itemcarrusel3">
@@ -65,7 +65,7 @@
           </div>
           <div class="containerslider" id="itemcarrusel2">
             <div class="tarjetacarrusel" id="tarjeta2">
-              <img src="/assets/img/gmail1.jpg" alt="">
+              <img src="../assets/img/gmail1.jpg" alt="">
       
             </div>
             <div class="flechascarrusel">
@@ -79,7 +79,7 @@
           </div>
           <div class="containerslider" id="itemcarrusel3">
             <div class="tarjetacarrusel" id="tarjeta3">
-              <img src="/assets/img/gmail4.jpg" alt="">
+              <img src="../assets/img/gmail4.jpg" alt="">
       
             </div>
             <div class="flechascarrusel">
@@ -109,17 +109,17 @@
         <br><hr><br>
         <div class="cursogaleria">
           <div class="foto">
-            <img src="/assets/img/tbggmail.png" alt="">
+            <img src="../assets/img/tbggmail.png" alt="">
           </div>
           <div class="piecurso">
-            <a href="/views/courses.php">conociendo Gmail</a>
+            <a href="../views/courses.php">conociendo Gmail</a>
             <p class="text-secondary">CONOCIENDO GMAIL</p>
             <p class="text-secondary">Usuario Tbeam</p>
           </div>
         </div>
         <div class="cursogaleria">
           <div class="foto">
-            <img src="/assets/img/blog1.png" alt="">
+            <img src="../assets/img/blog1.png" alt="">
           </div>
           <div class="piecurso">
             <a href="">conociendo facebook</a>
@@ -128,8 +128,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
   
 </body>
 
