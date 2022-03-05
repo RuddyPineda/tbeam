@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 body {
     background: #f1f2f3;
@@ -9,13 +9,19 @@ body {
 
 
 input[type='submit']{
-        background:  #aa75be;
-        border: 0;
-        color: #fff;
-        padding: 10px 15px;
-        cursor: pointer;
-      
-        
+    background:  #aa75be;
+    border: 0;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/*=======navbar======*/
+.navbar{
+    background: #13a4a4 !important;
+    max-height: 60px;
+}
+.nav-item a{
+    color:#fff;
 }
 
 /*CARRUSEL*/
@@ -78,8 +84,8 @@ i{
 }
 /* ==============slider home========================= */
 .slider-home{
-    width: 120% !important;
-    height: 580px;
+    width: 100% !important;
+    height: auto;
     background: #aa75be;
 }
 

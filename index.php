@@ -9,42 +9,38 @@
     <link rel="stylesheet" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">     
 </head>
-<header>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-        <a class="navbar-brand" href="#" >
-            <img src="assets/img/tb0.jpg" alt="" style="height: 60px; border-radius: 50px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                
-            <li class="nav-item active">
-                <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal">Ingresar <span class="sr-only">(current)</span></a>
-                </li>
-            
-            <li class="nav-item active">
-                <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarte</a>
-            </li>
-
-            <li class="nav-item">
-                <a href="views/blog.php" class="nav-link">Blog</a>
-
-            </li>
-            
-            <!-- </ul>
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div> -->
-    </nav>
-
-</header>
 <body >
+    <header>
+        
+        <nav class="navbar navbar-expand-lg main-nav">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="margin:auto">
+                    <li class="nav-item active">
+                        <a class="navbar-brand" href="#" >
+                            <img src="assets/img/tb0.jpg" alt="" style="height: 40px; border-radius: 50px; margin:auto">
+                        </a>                        
+                    </li>                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal">Ingresar<span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarse</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a href="views/blog.php" class="nav-link">Blog</a>        
+                    </li>                
+                </ul>
+            </div> 
+        </nav>
+    
+    </header>
     <main>
         <section>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -55,13 +51,13 @@
                 </ol>
                 <div class="carousel-inner mt-1">
                     <div class="carousel-item active slider-home">
-                        <img src="assets/img/slider1.jpg" class="d-block w-100 img-slider"> 
+                        <img src="assets/img/slider3.jpg" class="d-block w-100 img-slider"> 
                     </div>
                     <div class="carousel-item slider-home">
                         <img src="assets/img/slider2.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                     <div class="carousel-item slider-home">  
-                        <img src="assets/img/slider3.jpg" class="d-block w-100 img-slider" alt="...">
+                        <img src="assets/img/slider1.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -121,22 +117,22 @@
         </section>
     </main>
     <br><br><br>
-</body>
-<footer style="background:ligth; margin-top:15px">
-    <div class="row footer_father" >
-    <div id="pie">
-        <div id="centro-pie">
-            <p>
-                (c) todos los derechos reservados Diseñado por 
-                <a href="gmail: plataformatbeam@gmail.com" class="gmail">equipo Tbeam</a>- 2021
-            </p>
+    <footer style="background:ligth; margin-top:15px">
+        <div class="row footer_father" >
+        <div id="pie">
+            <div id="centro-pie">
+                <p>
+                    (c) todos los derechos reservados Diseñado por 
+                    <a href="gmail: plataformatbeam@gmail.com" class="gmail">equipo Tbeam</a>- 2021
+                </p>
+            </div>
+    
         </div>
-
-    </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-</footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </footer>
+</body>
 
 <!-- Modal login-->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -152,11 +148,11 @@
                      <form>
                     <div class="form-group">
                       <label for="usuario" name="usuario" class="col-form-label">Usuario</label>
-                      <input type="week" class="form-control" id="recipient-name">
+                      <input type="text" class="form-control" >
                     </div>
                     <div class="form-group">
                      <label for="contraseña" name="contraseña" class="col-form-label">Contraseña</label>
-                     <input type="password" class="form-control" id="recipient-name">
+                     <input type="password" class="form-control" >
                     </div>
                     </form>
                </div>
@@ -181,30 +177,30 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                             <label for="nombre" name="nombre" class="col-form-label">Nombres</label>
-                             <input type="text" class="form-control" id="recipient-name" placeholder="escriba su nombre" required>
+                                <label for="nombre" name="nombre" class="col-form-label">Nombres</label>
+                                <input type="text" class="form-control"  placeholder="escriba sus Nombres" required>
                            </div>
                            <div class="form-group">
-                             <label for="Apellido" name="Apellido" class="col-form-label">Apellidos</label>
-                             <input type="text" class="form-control" id="recipient-name" placeholder="escriba su Apellido" required>
+                                <label for="Apellido" name="apellido" class="col-form-label">Apellidos</label>
+                                <input type="text" class="form-control"  placeholder="escriba sus Apellidos" required>
                            </div>
                            <div class="form-group">
-                             <label for="Edad" name="Edad" class="col-form-label">Edad</label>
-                             <input type="number" class="form-control" id="recipient-name" placeholder="escriba su Edad" required>
+                                <label for="Edad" name="documento" class="col-form-label">Documento</label>
+                                <input type="number" class="form-control"  placeholder="escriba su Documento" required>
                            </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                             <label for="Contacto" name="Contacto" class="col-form-label">Contacto</label>
-                             <input type="text" class="form-control" id="recipient-name" placeholder="escriba su numero de contacto" required>
+                                <label for="Contacto" name="edad" class="col-form-label">edad</label>
+                                <input type="number" class="form-control"  placeholder="escriba su edad" required>
                             </div>
                            <div class="form-group">
-                             <label for="Contraseña" name="Contraseña" class="col-form-label">Contraseña</label>
-                             <input type="text" class="form-control" id="recipient-name" placeholder="escriba su Contraseña" required>
+                                <label for="Contraseña" name="contacto" class="col-form-label">telefono</label>
+                                <input type="number" class="form-control"  placeholder="escriba su telefono" required>
                             </div>
                             <div class="form-group">
-                             <label for="Contraseña" name="Contraseña" class="col-form-label">Confirmar contraseña</label>
-                             <input type="text" class="form-control" id="recipient-name" placeholder="escriba su contraseña" required>
+                                <label for="Contraseña" name="password" class="col-form-label">contraseña</label>
+                                    <input type="text" class="form-control"  placeholder="escriba una contraseña" required>
                             </div>
                         </div>
                         
