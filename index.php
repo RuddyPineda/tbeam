@@ -7,7 +7,7 @@
     <title>Tbeam</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">     
+    <link rel="stylesheet" href="assets/css/styles.css">     
 </head>
 <body >
     <header>
@@ -16,7 +16,8 @@
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>    
+            </button>
+    
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" style="margin:auto">
                     <li class="nav-item active">
@@ -42,8 +43,7 @@
     </header>
     <main>
         <section>
-           <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -75,7 +75,7 @@
             <div class="container">
                 <div class="row div-cards">
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="assets/img/tb1.png" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -88,19 +88,19 @@
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/tb4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="assets/img/tb2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/tb5.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/tb5.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
