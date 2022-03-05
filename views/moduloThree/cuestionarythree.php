@@ -10,12 +10,8 @@
 </head>
 
 <body>
-    
-
-<div class="container">
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container-fluid">
     <a class="navbar-brand" href="#">TECNOLOGIA BASICA EN ADULTEZ MEDIA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       
@@ -23,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">HOME</a>
         </li>
         </li>
         <li class="nav-item dropdown">
@@ -44,9 +40,8 @@
     </div>
   </div>
 </nav>
-</div>
 
-<div class="container">
+
   <head>
     <h1 class=" m-3 p-2 d-block bg-info text-white font-italic">CUESTIONARIO: Como crear tu cuenta Gmail.</h1> <hr>
     <p>Responde las siguientes preguntas:</p>

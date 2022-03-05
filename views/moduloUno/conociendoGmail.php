@@ -10,68 +10,76 @@
      <link rel="stylesheet" href="assets/css/styles_quienessomos.css">
 </head>
 <body >
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-                    <a class="navbar-brand" href="#" >
-                        <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+            <a class="navbar-brand" href="#" >
+             <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
     
-                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                           
-                        <li class="nav-item active">
+                   <li class="nav-item active">
                             <a class="nav-link" href="views/iniciarsesion.php" data-toggle="modal" data-target="#loginModal">Ingresar <span class="sr-only">(current)</span></a>
-                         </li>
+                   </li>
                         
-                        <li class="nav-item active">
+                   <li class="nav-item active">
                             <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">Registrarte</a>
-                        </li>
+                    </li>
       
-                        <li class="nav-item">
+                    <li class="nav-item">
                             <a href="views/blog.php" class="nav-link">Blog</a>
             
-                        </li>
+                    </li>
                         
-                        </ul>
-                           <form class="form-inline my-2 my-lg-0">
+                </ul>
+                    <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                           </form>
-                       </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-  <head>
-    <h1 class=" m-3 p-2 d-block text-info font-italic">Conociendo Gmail.</h1> <hr>
-    <p>Lecciones:</p>
-    <p class="text-secondary">ACTIVIDADES DE CLASE</p> <hr>
-  </head>
-  
-  <section>
+                    </form>
+           </div>
+        </nav>
+   </div>
+        
     
-    <div id="contenidogmail">
-         <h5 class="text-info sm ">contenido:</h5>
-         <h3 class=" d-block bg-ligth text-black">CONOCIENDO GMAIL</h3> <hr>
-         <p class="m-3">en este espacio encontraras el material de apoyo a socializar</p>
+    
+    <body>
+        <main>
+            <section class="m4 p-4">
+      
+                 <h1 class="  d-block text-info font-italic">Conociendo Gmail.</h1> <hr>
+                 <p>Lecciones:</p>
+                 <p class="text-secondary">ACTIVIDADES DE CLASE</p> <hr>
+            </section>
+  
+            <section class="ml4 pl-4">
+    
+                <div id="contenidogmail">
+                      <h5 class="text-info sm ">contenido:</h5>
+                      <h3 class=" d-block bg-ligth text-black">CONOCIENDO GMAIL</h3> <hr>
+                      <p class="m-3">en este espacio encontraras el material de apoyo a socializar</p>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <iframe style="padding-top: 15px" width="100%" height="auto" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                        <!-- <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <hr><hr>
+                        <iframe style="padding-top: 15px" width="100%" height="auto" src="https://www.youtube.com/watch?v=7l3gJCBntLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                        <!-- <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        
+                    </div>
+            </section>
+      </main>
+   </body>
 
-         <div class="card m-2 p-3">
-          <div class="card-header" role="tab">
-             <h5>
-             <a href="#"  class="text-info" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">conociendoGmail.pwr </a>
-             </h5>
-          </div>
-  
-    </div>
-    
-</section>
-</div>
  <div class="container">
 <footer style="background:ligth; margin-top:40px">
         <div class="row footer_father" >

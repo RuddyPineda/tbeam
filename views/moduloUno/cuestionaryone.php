@@ -11,33 +11,29 @@
 </head>
 
 <body>
-    
-
-<div class="container">
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">TECNOLOGIA BASICA EN ADULTEZ MEDIA</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TECNOLOGIA BASICA EN ADULTEZ MEDIA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../../index.php">HOME</a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../index.php">HOME</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+             Nombre del usuario
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Cambiar contraseña</a>
+              <a class="dropdown-item" href="#">cerrar sesion</a>
+                 <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+          </div>
         </li>
-        </li>
-        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Nombre del usuario
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Cambiar contraseña</a>
-                            <a class="dropdown-item" href="#">cerrar sesion</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
         
         
         </li>
@@ -45,14 +41,14 @@
     </div>
   </div>
 </nav>
-</div>
 
-<div class="container">
+
+
   <head>
-    <h1 class=" m-3 p-2 d-block bg-info text-white font-italic">CUESTIONARIO: Conceptos Generales de Gmail.</h1> <hr>
-    <p>Responde las siguientes preguntas:</p>
+    <h1 class=" m-3 p-3 d-block bg-info text-white font-italic">CUESTIONARIO: Conceptos Generales de Gmail.</h1> <hr>
+    <p class="m-4">Responde las siguientes preguntas:</p>
   </head>
- <section>
+ <section class="m4- p-3">
    <div id="resultado"></div>
    <form action="cuestform" onsubmit="return verificarRespuestas()">
         <h3 class="text-info">1. ¿Que es gmail?</h3>
@@ -92,7 +88,7 @@
         
    </form>
  </section>
-</div>
+
 
 <footer style="background:ligth; margin-top:15px">
         <div class="row footer_father" >

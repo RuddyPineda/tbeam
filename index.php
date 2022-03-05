@@ -42,7 +42,8 @@
     </header>
     <main>
         <section>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -74,7 +75,7 @@
             <div class="container">
                 <div class="row div-cards">
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb1.png" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -87,19 +88,19 @@
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/tb2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb5.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/tb5.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>

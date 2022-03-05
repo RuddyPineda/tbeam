@@ -14,14 +14,14 @@
     cursor: pointer;
     border: transparent 4px;
 }
-  .principalpost{
-     height:auto; overflow: hidden;
-     width: 80%;
+ .header-principalpost{
+     width: 150%;
+     height: 150px; overflow: hidden;
      border: 5px transparent;
      margin: 50px auto;
  }
  .publicaciones{
-     width: 70%;
+     width: 80%;
      height: auto; overflow: hidden;
      border: 1px solid transparent;
      margin-top: 10px;
@@ -30,7 +30,7 @@
 
 
 .post{
-    width: 95%;
+    width: 85%;
     height: auto; overflow: hidden;
     padding: 7px;
     border-left-style:solid;
@@ -42,12 +42,13 @@
 }
 .enlace-post{
     text-decoration: none;
+    
 
 }
 .publicaciones .titulo-post{
     color: #8c2574;
-    font-size:22px;
-    font-family:sans-serif;
+    font: size 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .datos-publicaciones{
