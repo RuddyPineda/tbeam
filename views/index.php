@@ -12,7 +12,7 @@
 
 </head>
 <header>
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
     <div class="row">
       <div class="col-md-12">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,12 +40,12 @@
         </nav>
       </div>
     </div>
-  </div>
+</nav>
 </header>
 
 <body>
-  <div class="container">
-    <div class="row">
+  <main>
+    <section>
       <div class="col-md-12">
 
         <div id="conteItemCarrusel">
@@ -128,8 +128,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
   
 </body>
 

@@ -12,12 +12,10 @@
 </head>
 
 <body>
-
-
-  <div class="container">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="#" >
+      <img src="assets/img/tb0.jpg" alt="" style="height: 60px; border-radius: 50px">
+        </a>
         <a class="navbar-brand" href="#">TECNOLOGIA BASICA EN ADULTEZ MEDIA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -46,20 +44,23 @@
             </li>
           </ul>
         </div>
-      </div>
+    
     </nav>
-  </div>
-  <div class="container">
-    <div>
+  
+    <div class="">
       <hr>
       <h2 class="d-block bg-info text-white font-italic p-2">Conociendo Gmail</h2>
     </div>
-  </div>
+  
   <hr>
-  <div class="container">
+  <body>
+    <main>
+      <section>
+    
+  
 
-    <div id="accordion" role="tablist" aria-multiselectable="true">
-      <div class="card m-2 p-3">
+       <div id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="card m-2 p-3">
         <div class="card-header" role="tab">
           <h5>
             <a href="#" class="text-dark" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">MODULO 1: CONCEPTOS GENERALES DE GMAIL</a>
@@ -69,12 +70,13 @@
           <div class="card-block">
             <a href="../views/moduloUno/conociendoGmail.php">ACTIVIDAD: conociendo gmail</a>
             <hr>
-            <a href="../views/moduloUno/entornoGmail.php">CONTENIDO: Diapositivas entorno Gmail</a>
-          </div>
+            <i class="fa fa-book" aria-hidden="true"></i> <a href="../views/moduloUno/entornoGmail.php">CONTENIDO: Diapositivas entorno Gmail</a>
+             </div>
         </div>
-      </div>
+       </div>
+       </div> 
 
-      <div class="card m-2 p-3">
+       <div class="card m-2 p-3">
         <div class="card-header" role="tab">
           <h5>
             <a href="#" class="text-dark" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">MODULO 2: COMO CREAR TU CUENTA GMAIL </a>
@@ -89,9 +91,9 @@
             <a href="#">TAREA:Taller creacion de tu cuenta </a>
           </div>
         </div>
-      </div>
+       </div>
 
-      <div class="card m-2 p-3">
+       <div class="card m-2 p-3">
         <div class="card-header" role="tab">
           <h5>
             <a href="#" class="text-dark" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">MODULO 3: COMO PERSONALIZAR TU CUENTA GMAIL</a>
@@ -102,11 +104,11 @@
             <a href="../views/modulothree/personalizacionGmail.php">CONTENIDO: Diapositivas personalizar y editar tu cuenta Gmil</a>
           </div>
         </div>
-      </div>
+       </div>
 
-      <hr>
-      <hr>
-      <div class="card m-2 p-3">
+       <hr>
+       <hr>
+       <div class="card m-2 p-3">
         <div class="card-header" role="tab">
           <h5>
             <a href="#" class="text-dark" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">CUESTIONARIOS</a>
@@ -121,7 +123,10 @@
             <a href="../views/moduloThree/cuestionarythree.php">CUESTIONARIO: Modulo 3 Como personalizar tu cuenta Gmail</a>
           </div>
         </div>
-      </div>
+       </div>
+     </section>
+    </main>
+</body>
       <br><br><br>
       <footer style="background:ligth; margin-top:15px">
         <div class="row footer_father">
