@@ -7,7 +7,7 @@
     <title>Tbeam</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">     
+    <link rel="stylesheet" href="./assets/css/styles.css">     
 </head>
 <body >
     <header>
@@ -22,7 +22,7 @@
                 <ul class="navbar-nav mr-auto" style="margin:auto">
                     <li class="nav-item active">
                         <a class="navbar-brand" href="#" >
-                            <img src="assets/img/tb0.jpg" alt="" style="height: 40px; border-radius: 50px; margin:auto">
+                            <img src="./assets/img/tb0.jpg" alt="" style="height: 40px; border-radius: 50px; margin:auto">
                         </a>                        
                     </li>                    
                     <li class="nav-item active">
@@ -51,13 +51,13 @@
                 </ol>
                 <div class="carousel-inner mt-1">
                     <div class="carousel-item active slider-home">
-                        <img src="assets/img/slider3.jpg" class="d-block w-100 img-slider"> 
+                        <img src="./assets/img/slider3.jpg" class="d-block w-100 img-slider"> 
                     </div>
                     <div class="carousel-item slider-home">
-                        <img src="assets/img/slider2.jpg" class="d-block w-100 img-slider" alt="...">
+                        <img src="./assets/img/slider2.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                     <div class="carousel-item slider-home">  
-                        <img src="assets/img/slider1.jpg" class="d-block w-100 img-slider" alt="...">
+                        <img src="./assets/img/slider1.jpg" class="d-block w-100 img-slider" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -75,7 +75,7 @@
             <div class="container">
                 <div class="row div-cards">
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb1.png" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -88,25 +88,25 @@
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/tb2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb5.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/tb5.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/tb6.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>

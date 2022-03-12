@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
 
 <body>
@@ -60,19 +60,19 @@
                         <iframe style="padding-top: 15px" width="100%" height="500px" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="/assets/img/tb1.png" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/img/tb6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/tb6.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
