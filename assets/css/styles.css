@@ -117,10 +117,6 @@ div.piecurso{
     padding: 10px;
 }
 
-
-
-
-
 .footer_father{
     justify-content: center;
     text-align: center;
@@ -146,4 +142,34 @@ div.piecurso{
 }
 .card-img, .card-img-top {
     padding-top: 15px;
+}
+
+/* ================ courses======================== */
+
+.bg-info {
+    text-align: center !important;
+    background-color: #28a745!important;
+}
+.card-header {
+    background-color: #ffc107 !important;
+}
+.fa {
+    color: #17a2b8;
+    margin: 5px;
+    font-size: 25px !important;
+}
+.card-block {
+    margin: 25px;
+    border-bottom: 0.5px solid #17a2b8;
+}
+ul.navbar-nav.ml-auto {
+    margin-right: 30px;
+}
+a.dropdown-item{
+    color: #17a2b8 !important;
+}
+/* =============================diapositivas========================== */
+.diapositiva {
+    width: 100%;
+    height: 500px;
 }

@@ -145,19 +145,19 @@
                  </button>
             </div>
                <div class="modal-body">
-                     <form>
-                    <div class="form-group">
-                      <label for="usuario" name="usuario" class="col-form-label">Usuario</label>
-                      <input type="text" class="form-control" >
-                    </div>
-                    <div class="form-group">
-                     <label for="contraseña" name="contraseña" class="col-form-label">Contraseña</label>
-                     <input type="password" class="form-control" >
-                    </div>
+                    <form action="./controllers/login.php" method="GET">
+                        <div class="form-group">
+                            <label for="documento"  class="col-form-label">Documento</label>
+                            <input type="number" class="form-control" name="documento" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contraseña"  class="col-form-label">Contraseña</label>
+                            <input type="password" class="form-control" name="contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Aceptar</button>
                     </form>
                </div>
             <div class="modal-footer">
-             <button type="button" class="btn btn-primary">Aceptar</button>
             </div>
         </div>
     </div>
@@ -167,67 +167,58 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                 <h5 class="modal-title" id="exampleModalLabel">Registro de usuario</h5>
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
+                <h5 class="modal-title" id="exampleModalLabel">Registro de usuario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-                <div class="modal-body">
-                 <form action="##">
+            <div class="modal-body">
+                <form action="./controllers/register.php" method="POST">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="nombre" name="nombre" class="col-form-label">Nombres</label>
-                                <input type="text" class="form-control"  placeholder="escriba sus Nombres" required>
-                           </div>
-                           <div class="form-group">
-                                <label for="Apellido" name="apellido" class="col-form-label">Apellidos</label>
-                                <input type="text" class="form-control"  placeholder="escriba sus Apellidos" required>
-                           </div>
-                           <div class="form-group">
-                                <label for="Edad" name="documento" class="col-form-label">Documento</label>
-                                <input type="number" class="form-control"  placeholder="escriba su Documento" required>
-                           </div>
+                                <label for="nombre"  class="col-form-label">Nombres</label>
+                                <input type="text" class="form-control" name="nombres" placeholder="escriba sus Nombres" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Apellido"  class="col-form-label">Apellidos</label>
+                                <input type="text" class="form-control" name="apellidos" placeholder="escriba sus Apellidos" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Edad"  class="col-form-label">Documento</label>
+                                <input type="number" class="form-control" name="documento" placeholder="escriba su Documento" required>
+                            </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="Contacto" name="edad" class="col-form-label">edad</label>
-                                <input type="number" class="form-control"  placeholder="escriba su edad" required>
+                                <label for="documento" class="col-form-label">edad</label>
+                                <input type="number" class="form-control" name="documento" placeholder="escriba su edad" required>
                             </div>
-                           <div class="form-group">
+                            <div class="form-group">
                                 <label for="Contraseña" name="contacto" class="col-form-label">telefono</label>
-                                <input type="number" class="form-control"  placeholder="escriba su telefono" required>
+                                <input type="number" class="form-control" name="contacto" placeholder="escriba su telefono" required>
                             </div>
                             <div class="form-group">
                                 <label for="Contraseña" name="password" class="col-form-label">contraseña</label>
-                                    <input type="text" class="form-control"  placeholder="escriba una contraseña" required>
+                                    <input type="text" class="form-control" name="password" placeholder="escriba una contraseña" required>
                             </div>
                         </div>
                         
                         <div class="col-md-8">
-                    <div class="genero-details">
-                              <input type="radio" name="genero" id="punto-1">
-                              <input type="radio" name="genero" id="punto-2">
-                              <span class="genero-title">genero</span>
-                        <div class="categoria">
-                            <label for="punto-1">
-                              <span class="punto uno"></span>
-                              <span class="genero">Mujer</span>
-                              <label for="punto-2">
-                              <span class="punto dos"></span>
-                              <span class="genero">Hombre</span> 
-                            </label>
+                            <span class="genero-title">genero</span>                                
+                            <div class="genero-details">
+                                <input type="radio" name="mujer" id="punto-1"><span class="genero"> Mujer</span><br/>
+                                <input type="radio" name="hombre" id="punto-2"><span class="genero"> hombre</span><br/>
+                            </div>                                
                         </div>
                     </div>
-                    
-           
-            <button type="submit" class="btn btn-primary">Aceptar</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                 </form>
+                    <button type="submit" class="btn btn-primary">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                </form>
 
-                </div>
+            </div>
           
         </div>
-  </div>
+    </div>
 </div>
 </html>
