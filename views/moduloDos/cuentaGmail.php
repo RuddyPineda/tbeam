@@ -12,44 +12,36 @@
 <body >
     <main> 
         <section>  
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <a class="navbar-brand" href="#" >
-                        <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                         <ul class="navbar-nav mr-auto">
-                          
-                            <li class="nav-item">
-                                <a href="../../index.php" class="nav-link">HOME</a>
-            
-                            </li>
-                            
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container-fluid">
+    <a class="navbar-brand" href="#">TECNOLOGIA BASICA EN ADULTEZ MEDIA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       
-                            <li class="nav-item">
-                                <a href="views/blog.php" class="nav-link">Blog</a>
-            
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Nombre del usuario
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <a class="dropdown-item" href="#">Cambiar contraseña</a>
-                                   <a class="dropdown-item" href="#">cerrar sesion</a>
-                                   <div class="dropdown-divider"></div>
-                                   <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        
-                        </ul>
-                           
-                       </div>
-                </nav>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.php">HOME</a>
+        </li>
+        </li>
+        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Nombre del usuario
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cambiar contraseña</a>
+                            <a class="dropdown-item" href="#">cerrar sesion</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+        
+        
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
             </div>
        </section>
      </main> 

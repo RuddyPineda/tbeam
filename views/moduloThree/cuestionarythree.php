@@ -49,48 +49,43 @@
  <section>
    <div id="resultado"></div>
    <form action="cuestform" onsubmit="return verificarRespuestas()">
-        <h3 class="text-info">1. ¿cuantos tipos de cuenta de gmail se pueden crear?</h3>
-        <input type="radio" name="p1" value="a">a. una cuenta: personal <br/>
-        <input type="radio" name="p1" value="b">b. dos cuentas: personal y de empresa. <br/> 
-        <input type="radio" name="p1" value="c">c. tres cuentas: personal, comercial y de seguridad. <br/>
-        <input type="radio" name="p1" value="d">d. todas las anteriores <br/> <hr>
+        <h3 class="text-info">1. ¿cuales son las opciones de pestaña con las que podemos separar nuestro correo electronico?</h3>
+        <input type="radio" name="p1" value="a">a. social, seguridad, promociones.<br/>
+        <input type="radio" name="p1" value="b">b. bandeja de entrada, seguridad, notificaciones. <br/> 
+        <input type="radio" name="p1" value="c">c. principal,social, promociones, notificaciones y foros. <br/>
+        <input type="radio" name="p1" value="d">d. principal, social, bandeja de entrada y foros. <br/> <hr>
         
         
 
-        <h3 class="text-info">2. ¿al crear una cuenta de Gmail es necesario proporcionar datos precisos? por que?</h3>
-        <input type="radio" name="p2" value="a">a. si, porque asi se podra proteger aun mas la cuenta de posibles plagios <br/>
-        <input type="radio" name="p2" value="b">b. No, porque solo se necesita para enviar correos <br/> 
-        <input type="radio" name="p2" value="c">c. si, porque al momento de plagio, necesitaran nuestros datos reales<br/>
-        <input type="radio" name="p2" value="d">d. depende para que usemos nuestra cuenta<br/> <hr>
+        <h3 class="text-info">2. ¿en que opcion de ajustes podremos cambiar la aparencia de nuestro Gmail en cuanto a fondo, colores o tematicas?</h3>
+        <input type="radio" name="p2" value="a">a. en la opcion de ajustes llamada temas <br/>
+        <input type="radio" name="p2" value="b">b. en la opcion de ajustes llamada confirmacion de acciones <br/> 
+        <input type="radio" name="p2" value="c">c. en la opcion de ajustes llamada accion de notificaciones<br/>
+        <input type="radio" name="p2" value="d">d. en la opcion de ajustes llamado ajustes automaticos<br/> <hr>
 
-        <h3 class="text-info">3. ¿segun la manera correcta de crear una cuenta de gmail. cual es orden correcto del enunciado:
+        <h3 class="text-info">3. ¿segun lo aprendido en contenido, se puede agregar una firma automatica en Gmail sea propia o logo?
             ?</h3>
-            <p>1. Ve a la página de acceso de la Cuenta de Google. <br>
-              2.Ingresa tu nombre. <br>
-              3. En el campo "Nombre de usuario", ingresa un nombre de usuario. <br>
-              4. Haz clic en Crear cuenta. <br>
-              5.Agrega y verifica un número de teléfono para la cuenta. <br>
-              6. Ingresa y confirma tu contraseña.
-              7. Haz clic en Siguiente.
-
-            </p>
-        <input type="radio" name="p3" value="a">a. 1,2,3,4,5,6,7 <br/>
-        <input type="radio" name="p3" value="b">b. 1,4,2,3,6,5,7<br/> 
-        <input type="radio" name="p3" value="c">c. 1,3,2,4,6,5,7<br/>
-        <input type="radio" name="p3" value="d">d. 2,3,4,1,6,5,7 <br/> <hr>
+          
+        <input type="radio" name="p3" value="a">a.SI <br/>
+        <input type="radio" name="p3" value="b">b. NO.<br/> 
+         <hr>
         
 
         <h3 class="text-info">4. ¿conteste falso a verdadero segun sea el caso?</h3>
-         <p>Si olvidas la contraseña o alguien usa tu cuenta sin permiso, la puedes recuperar si tienes la informacion de recuperacion actualizada. </p>
+         <p>En Gmail existen extenciones para programar mensajes que seran enviados en una fecha especificada y tambien el autoenvio e mensajes para volverlos a leer en un horario determinado. </p>
         <input type="radio" name="p4" value="a">a. falso. <br/>
         <input type="radio" name="p4" value="b">b. verdadero <br/>  <hr>
 
-        <h3 class="text-info">5. ¿se puede administrar tu informacion y direcciones de correo electronico?</h3>
-        <input type="radio" name="p5" value="a">a. No <br/>
-        <input type="radio" name="p5" value="b">b. Si <br/> <hr>
+        <h3 class="text-info">5. esta configuracion se hace abriendo Gmail, buscando el mensaje seleccionado,y presionando los tres puntos dentro del mensaje, luego dentro del calendario se añadiran una serie de datos y se guardara en la parte superior dandole aceptar.</h3>
+        <input type="radio" name="p5" value="a">a. silenciar mensajes <br/>
+        <input type="radio" name="p5" value="b">b. destacar mensajes. <br/>
+        <input type="radio" name="p5" value="b">c. filtrar mensajes.  <br/>
+        <input type="radio" name="p5" value="b">d. crear eventos. <br/> <hr>
 
         <input type="submit" value="Enviar">
         
+        
+
         
    </form>
  </section>
