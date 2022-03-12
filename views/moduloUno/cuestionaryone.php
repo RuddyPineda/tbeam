@@ -60,15 +60,6 @@
                       <input type="radio" name="p1" value="4"> d. una aplicacion movil <br/>
                       <hr>
                 
-                
-                
-                      <h3 class="text-info">2. ¿En que equipos se puede utilizar Gmail?</h3>
-                      <input type="radio" name="p2" value="a">a. en un smarphone (ios o android) <br />
-                      <input type="radio" name="p2" value="b">b. en equipos de computo de escritorio <br />
-                      <input type="radio" name="p2" value="c">c. en tablets<br />
-                      <input type="radio" name="p2" value="d">d. todas las anteriores <br/>
-                      <hr>
-                
                       <h3 class="text-info">3. ¿Que funciones ofrece Gmail?</h3>
                       <input type="radio" name="p3" value="a">a. funciones de enviar y recibir correos <br />
                       <input type="radio" name="p3" value="b">b. funciones de chat<br />
