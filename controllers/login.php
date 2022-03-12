@@ -11,10 +11,11 @@
         if ($user['documento'] == $documento && $user['contrasena'] == $contraseña) {
             if ($user['rol'] == "usuario") {
                 echo "usuario: autenticado rol usuario"; 
-                header("Location: ../views/courses.php?auth=true");
+                header("Location: ../views/courses.php");
                 die();               
             } else {
-                echo "usuario: autenticado rol administrador";
+                header("Location: ../dashboard/admin.php");
+                die();
             }
         } else {
             echo "usuario: credenciales Incorrectas ";
