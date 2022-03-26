@@ -35,8 +35,7 @@
           </li>
         </ul>
       </div>
-  
-    </nav>
+  </nav>
   </header>
 
   
@@ -47,7 +46,7 @@
       </div>
       <div>
         <hr>
-        <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 2: creando tu cuenta Gmail</h2>
+        <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 1: Video Conociendo Gmail</h2>
       </div>  
       <hr>
       <div class="row">
@@ -57,7 +56,7 @@
             <div class="container">
                 <div class="row div-cards">
                     <div class="col-md-12">
-                      <iframe style= "padding-top: 15px" width="100%" height="500" src="https://www.youtube.com/embed/1DCZXDNtj40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style="padding-top: 15px" width="100%" height="500px" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
                         <img class="card-img-top" src="../../assets/img/tb1.png" alt="Card image cap">

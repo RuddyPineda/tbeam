@@ -101,13 +101,13 @@
                 </div>
                 <div id="" role="tabpane1" class="">
                   <div class="card-block">
-                    <a href="../views/modulothree/personalizacionGmail.php"><i class="fa fa-youtube-square" aria-hidden="true"></i>CONTENIDO: Video Informativo</a>
+                    <a href="../views/modulothree/videoInformativo.php"><i class="fa fa-youtube-square" aria-hidden="true"></i>CONTENIDO: Video Informativo</a>
                   </div>
                   <div class="card-block">
-                    <a href="../views/modulothree/personalizacionGmail.php"><i class="fa fa-book" aria-hidden="true"></i>CONTENIDO: Diapositivas personalizar y editar tu cuenta Gmail</a>
+                    <a href="../views/modulothree/personalizacionGmail.php"><i class="fa fa-book" aria-hidden="true"></i>CONTENIDO: Diapositivas personalizando Gmail</a>
                   </div>
                   <div class="card-block">
-                    <a href="../views/modulothree/personalizacionGmail.php"><i class="fa fa-question-circle" aria-hidden="true"></i>CONTENIDO: Diapositivas personalizar y editar tu cuenta Gmail</a>
+                    <a href="../views/modulothree/cuestionarythree.php"><i class="fa fa-question-circle" aria-hidden="true"></i>CUESTIONARIO: personalizacion de gmail</a>
                   </div>
                 </div>
               </div>

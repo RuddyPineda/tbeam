@@ -61,7 +61,7 @@
                                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                                             <a href="#" data-target="#exampleModal1" data-toggle="modal">
-                                                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-1.webp" class="w-100" />
+                                                <img src="../../assets/img/entornoGmail.png" class="w-100" />
                                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                                             </a>
                                         </div>
@@ -70,7 +70,7 @@
                                     <div class="col-lg-4 mb-4 mb-lg-0">
                                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                                             <a href="#" data-toggle="modal" data-target="#exampleModal2">
-                                                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp" class="w-100" />
+                                                <img src="../../assets/img/segungmail.png" class="heigth 100px w-100 " />
                                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                                             </a>
                                         </div>
@@ -79,7 +79,7 @@
                                     <div class="col-lg-4 mb-4 mb-lg-0">
                                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                                             <a href="#" data-target="#exampleModal3" data-toggle="modal">
-                                                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp" class="w-100" />
+                                                <img src="../../assets/img/entorno4.png" class="w-100 h-100px" />
                                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                                             </a>
                                         </div>
@@ -95,7 +95,7 @@
                                     <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
                                             <div class="ratio ratio-16x9">
-                                            <iframe class="diapositiva" src="https://www.youtube.com/embed/BNSA7W66A_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                 <img class="diapositiva" class="diapositiva" src="../../assets/img/entornoGmail.png" alt="">
                                             </div>
 
                                             <div class="text-center py-3">
@@ -111,7 +111,7 @@
                                     <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
                                             <div class="ratio ratio-16x9">
-                                                <iframe class="diapositiva" src="https://www.youtube.com/embed/wTcNtgA6gHs" title="YouTube video" allowfullscreen></iframe>
+                                               <img class="diapositiva" src="../../assets/img/segungmail.png" alt="">
                                             </div>
 
                                             <div class="text-center py-3">
@@ -127,7 +127,7 @@
                                     <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
                                             <div class="ratio ratio-16x9">
-                                                <iframe class="diapositiva" src="https://www.youtube.com/embed/vlDzYIIOYmM" title="YouTube video" allowfullscreen></iframe>
+                                                <img class="diapositiva" src="../../assets/img/entorno4.png" alt="">
                                             </div>
 
                                             <div class="text-center py-3">
