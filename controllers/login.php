@@ -1,4 +1,6 @@
 <?php
+    session_start();
+   // $_SESSION['id_cliente'] = "javier";
     include("./conexion.php");
     $documento = $_GET['documento'];
     $contraseña = $_GET['contraseña'];
@@ -10,6 +12,7 @@
     
         if ($user['documento'] == $documento && $user['contrasena'] == $contraseña) {
             if ($user['rol'] == "usuario") {
+                $_SESSION['id_cliente'] = $user['id'];
                 echo "usuario: autenticado rol usuario"; 
                 header("Location: ../views/courses.php");
                 die();               

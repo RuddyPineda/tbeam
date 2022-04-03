@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
-
+<?php include("../../controllers/conexion.php")?>
+<?php include("../../controllers/cuestionario1.php")?>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
@@ -52,35 +53,26 @@
                 <div class="col-md-12">
                   <section class="m4- p-3">
                     <div id="resultado"></div>
-                    <form action="#" method="POST">
-                      <h3 class="text-info">1. ¿Que es gmail?</h3>
-                      <input type="radio" name="p1" value="1"> a. una libreria virtual <br />
-                      <input type="radio" name="p1" value="2"> b. un servicio de correo electronico <br />
-                      <input type="radio" name="p1" value="3"> c. una red social <br />
-                      <input type="radio" name="p1" value="4"> d. una aplicacion movil <br/>
-                      <hr>
-                
-                      <h3 class="text-info">3. ¿Que funciones ofrece Gmail?</h3>
-                      <input type="radio" name="p3" value="a">a. funciones de enviar y recibir correos <br />
-                      <input type="radio" name="p3" value="b">b. funciones de chat<br />
-                      <input type="radio" name="p3" value="c">c. funciones de videoconferencias<br />
-                      <input type="radio" name="p3" value="d">d. la respuesta a y b son correctas <br />
-                      <input type="radio" name="p3" value="e">e. la respuesta b y c son correctas <br />
-                      <hr>
-                
-                      <h3 class="text-info">4. ¿en Gmail, como se puede deshacer un correo electronico?</h3>
-                      <input type="radio" name="p4" value="a">a. se envia un correo y en los tres segundos se da en la opcion deshacer envio. <br />
-                      <input type="radio" name="p4" value="b">b. se busca en mensajes enviados y se elimina el correo electronico que acabamos de enviar <br />
-                      <input type="radio" name="p4" value="c">c. No se puede deshacer el envio de un correo<br />
-                      <input type="radio" name="p4" value="d">d. se configura el tiempo de cancelacion del envio para poder deshacer el envio. <br />
-                      <hr>
-                
-                      <h3 class="text-info">5. ¿es necesario tener una cuenta e Gmail para los servicios de google y demas aplicaciones?</h3>
-                      <input type="radio" name="p5" value="a">a. No <br />
-                      <input type="radio" name="p5" value="b">b. Si <br />
-                      <input type="radio" name="p5" value="c">c. A veces<br />
-                      <hr>
-                
+                    <form action="../../controllers/create/insertCuestionary.php" method="POST">
+                      <?php 
+                        foreach ($arrayrespuestas as $key => $value) {
+                          ?>
+                            <h3 class="text-info"> <?php echo $key?></h3>
+                          <?php
+                          foreach ($value as $respuesta) {
+                            ?>
+                              <input type="radio"
+                                name="<?php echo $respuesta['id_pregunta']?>" 
+                                value = "<?php echo $respuesta['id'] ?>"
+                              >
+                                <b><?php echo $respuesta['numeral'].". " ?></b><?php echo $respuesta['detalle'] 
+                            ?> 
+                              <br/>
+                            <?php
+                            }                            
+                          }
+                        ?>
+                      <hr>                
                       <input type="submit" value="Enviar">
                 
                 
