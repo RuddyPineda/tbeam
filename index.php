@@ -192,24 +192,19 @@
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label for="documento" class="col-form-label">edad</label>
-                                <input type="number" class="form-control" name="documento" placeholder="escriba su edad" required>
+                                <input type="number" class="form-control" name="edad" placeholder="escriba su edad" required>
                             </div>
                             <div class="form-group">
                                 <label for="Contraseña" name="contacto" class="col-form-label">telefono</label>
-                                <input type="number" class="form-control" name="contacto" placeholder="escriba su telefono" required>
+                                <input type="number" class="form-control" name="telefono" placeholder="escriba su telefono" required>
                             </div>
                             <div class="form-group">
                                 <label for="Contraseña" name="password" class="col-form-label">contraseña</label>
-                                    <input type="text" class="form-control" name="password" placeholder="escriba una contraseña" required>
+                                <input type="password" class="form-control" name="password" placeholder="escriba una contraseña" required>
                             </div>
-                        </div>
-                        
-                        <div class="col-md-8">
-                            <span class="genero-title">genero</span>                                
-                            <div class="genero-details">
-                                <input type="radio" name="mujer" id="punto-1"><span class="genero"> Mujer</span><br/>
-                                <input type="radio" name="hombre" id="punto-2"><span class="genero"> hombre</span><br/>
-                            </div>                                
+                            <div class="form-group">
+                                <input type="hidden" class="form-control" name="rol" placeholder="" value="usuario">
+                            </div>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Aceptar</button>

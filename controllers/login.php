@@ -1,6 +1,6 @@
 <?php
     session_start();
-   // $_SESSION['id_cliente'] = "javier";
+
     include("./conexion.php");
     $documento = $_GET['documento'];
     $contraseña = $_GET['contraseña'];
@@ -17,6 +17,7 @@
                 header("Location: ../views/courses.php");
                 die();               
             } else {
+                $_SESSION['admin'] = "admin";
                 header("Location: ../dashboard/admin.php");
                 die();
             }
