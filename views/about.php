@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tbeam</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/styles_quienessomos.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/styles_quienessomos.css">   
 </head>
 <body>
-    <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-            <a class="navbar-brand" href="#" >
-                <img src="assets/img/tb Logotipos.png" alt="" style="height: 60px;">
-            </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header>
+        
+    <nav class="navbar navbar-expand-lg main-nav">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                        
-                    <li class="nav-item">
-                        <a href="../index.php" class="nav-link">HOME</a>
-                   </li>
+                <ul class="navbar-nav mr-auto" style="margin:auto">
+                    <li class="nav-item active">
+                        <a class="navbar-brand" href="#" >
+                            <img src="../assets/img/tb0.jpg" alt="" style="height: 40px; border-radius: 50px; margin:auto">
+                        </a>                        
+                    </li>                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.php" data-toggle="modal" data-target="#loginModal">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./blog.php" data-toggle="modal" data-target="#registerModal">BLOG</a>
+                    </li>
+        
+                                   
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+            </div> 
         </nav>
-    </div>
+        <body>
         <main>
             <div id="contenido-quienessomos"> 
                 <div id="tbeam3">
@@ -43,10 +50,11 @@
                         <div id="izquierda">
                             <h3>Creemos en el cambio</h3>
                             <p class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem illo cum optio culpa vel quos impedit deleniti sapiente, vitae debitis inventore. Consequatur ad, eaque voluptatum quisquam quasi vitae iste
+                            En estos días la tecnología está en todas partes. Pero ¿sabía usted que hay herramientas tecnológicas específicas que pueden ayudar a las personas que piensan y aprenden de manera diferente?
                                  <br><br>
                     
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem illo cum optio culpa vel quos impedit deleniti sapiente, vitae debitis inventore. 
+                                Tbeam es una plataforma de enseñanza que te ayudara con las dificultades a la hora de manejar diferentes redes sociales.
+
                             </p>
                             <div id="imagenes">
                                 <img src="../assets/img/somos 2.jpg" class="img-servicios">
@@ -99,5 +107,6 @@
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     </footer>
+    
 </body>
 </html>

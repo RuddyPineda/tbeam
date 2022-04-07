@@ -62,19 +62,19 @@
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
                         <img class="card-img-top" src="../../assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Gmail funciona perfectamente con clientes de escritorio como Microsoft Outlook, Apple Mail y Mozilla Thunderbird, incluida la sincronización de contactos y de eventos.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="../../assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Gmail sin conexión te permite leer, responder, eliminar y buscar mensajes de Gmail aunque hayas perdido la conexión a Internet.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="../../assets/img/tb6.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Como podéis ver, es curioso el truquillo para poder crear una cuenta en Google sin tener que usar Gmail. No deja de ser raro identificarte en Google con una cuenta de Hotmail, por ejemplo. Pero es muy útil en el caso que quieras usar toda la suite de Google Apps y resulta que no tienes Gmail.</p>
                         </div>
                     </div>
 

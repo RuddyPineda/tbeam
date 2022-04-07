@@ -77,38 +77,38 @@
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
                         <img class="card-img-top" src="./assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Aprender nunca fue tan facil, con los diferentes cursos que ofrece Tbeam puedes volverte un alumno 4A de los principales medios de comunicacion que ofrece el mundo digital.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                     <iframe style="padding-top: 15px" width="100%" height="auto" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
                         <!-- <img class="card-img-top" src="/assets/img/tb2.jpg" alt="Card image cap"> -->
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Gmail se ha vuelto una de las herramientas mas importantes a la hora de enviar nuestros documentos, informacion de suma importancia o manejar nuestras reuniones o demas horarios dentro de nuestra cotidianidad. </p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="./assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Tbeam te ofrece cursos cortos donde aprenderas las principales redes sociales, entre ellas facebook, instagram, Gmail y muchas mas.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="./assets/img/tb2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/face.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Facebook es una red social cuyo objetivo es conectar personas con personas: amigos, familiares, compañeros de trabajo o gente con aficiones comunes. Es una de las redes sociales con más usuarios, con cerca de 2.200 millones de personas registradas..</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/img/tb5.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/insta.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Instagram es una red social muy popularizada entre jóvenes que ofrece la posibilidad de compartir fotografías con otros usuarios y poder recibir comentarios o “me gustas” (likes) de tus seguidores.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/img/tb6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/google.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Permite realizar reuniones virtuales o presentaciones online, dentro del ámbito del teletrabajo o la educación por Internet y, tras los confinamientos por el COVID-19, también entre los usuarios particulares.</p>
                         </div>
                     </div>
 

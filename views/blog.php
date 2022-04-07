@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tbeam</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/styles_quienessomos.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/styles_quienessomos.css">   
 </head>
-<body>
-    <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-            <a class="navbar-brand" href="#" >
-                <img src="../assets/img/TBEAM Logotipos.png" alt="" style="height: 60px;">
-            </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        
-                </button>
+<body >
+    <header>
+        
+        <nav class="navbar navbar-expand-lg main-nav">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto" style="margin:auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../index.php" data-toggle="modal" data-target="#loginModal">HOME</a>
+                        <a class="navbar-brand" href="#" >
+                            <img src="../assets/img/tb0.jpg" alt="" style="height: 40px; border-radius: 50px; margin:auto">
+                        </a>                        
+                    </li>                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.php" data-toggle="modal" data-target="#loginModal">Home<span class="sr-only">(current)</span></a>
                     </li>
                     
-                    <li class="nav-item">
-                        <a href="../views/about.php" class="nav-link">QUIENES SOMOS</a>
-            
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./about.php" data-toggle="modal" data-target="#registerModal">Quienes Somos</a>
                     </li>
-                        
+        
+                                   
                 </ul>
-                        
-            </div>
-         </nav> 
-    </div>
-
-
-    <body>
+            </div> 
+        </nav>
+        <body>
         <main>
            <header class="principalpost">
                 <header class="publicaciones">
-                      <H1 class="d-block text-dark font-italic">Tecnologia Basica Para La Adultez Media</H1>
+                      <H1 class="d-block">Tecnologia Basica Para La Adultez Media</H1>
                       <hr>
                     <article class="post">
                         <a href="" class="enlace-post"> </a>

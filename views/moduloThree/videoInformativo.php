@@ -61,19 +61,19 @@
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
                         <img class="card-img-top" src="../../assets/img/tb1.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Para comenzar a adaptar nuestro diseño, lo haremos mediante las diferentes formas que tenemos de hacerlo, algunas de ellas pueden gustarnos más o menos, cambiando por completo nuestra forma de utilizar Gmail desde el ordenador y de alguna manera también en nuestro smartphone si así lo deseamos.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="../../assets/img/tb4.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Si no te ha conseguido convencer ninguna de las opciones de Gmail, ni tampoco las muchas fotografías ya preinstaladas con las que cuenta la plataforma, siempre podemos optar por otras muchas. En Internet encontraremos multitud de imágenes, diseño y demás contenido que Google pone a nuestra disposición en unos pocos segundos.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
                         <img class="card-img-top" src="../../assets/img/tb6.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Como todo siempre se encuentra en constante evolución en estos días, Gmail no es una excepción y ha evolucionado de igual manera que muchas otras herramientas, compartiendo algunas herramientas y contenidos multimedia, la cual al finalizar el proceso podrás observar que adopta una semejanza a la venta de Whatssap Muy útil nuestra guía de como hacer videoconferencia con Whatsapp.</p>
                         </div>
                     </div>
 

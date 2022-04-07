@@ -60,21 +60,21 @@
                         <iframe style="padding-top: 15px" width="100%" height="500px" src="https://www.youtube.com/embed/2AHXar82iL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;" style="margin: 15px;">
-                        <img class="card-img-top" src="../../assets/img/tb1.png" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/tb5.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">En sus inicios, solo se podía acceder a Gmail por medio de la invitación de uno de sus miembros. Cada nuevo usuario podía enviar invitaciones a un determinado grupo de amigos, lo que generó gran expectativa por probar la nueva plataforma. Esta dinámica se mantuvo hasta 2007, cuando se habilitó el registro abierto.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="../../assets/img/tb4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/gmail.jpeg" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Fue el primer servicio de correo electrónico en integrar un chat a su interfase. Los usuarios podían enviar mensajes a sus contactos sin utilizar otra plataforma de mensajería externa. Estas herramientas permiten también las videollamadas.</p>
                         </div>
                     </div>
                     <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top" src="../../assets/img/tb6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../../assets/img/tbggmail.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">La integración con el teléfono celular marcó también innovación en Gmail. Se lanzaron las apps para móviles y se han convertido en una extensión importande del correo versión escritorio.</p>
                         </div>
                     </div>
 
