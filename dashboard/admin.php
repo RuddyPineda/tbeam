@@ -135,7 +135,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="./controllers/register.php" method="POST">
+                <form action="../controllers/register.php" method="POST">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
