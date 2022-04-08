@@ -115,22 +115,70 @@
            
             
 
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>configuracion</span></a>
-            </li>
+            <!-- Nav Item - REGISTRO -->
+            <li class="nav-item active">
+                        <a class="nav-link" href="views/registrarte.php" data-toggle="modal" data-target="#registerModal">REGISTRO</a>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
+            
 
-            <!-- Sidebar Message -->
+            <!-- Modal register-->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registro de Administrador</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="./controllers/register.php" method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="nombre"  class="col-form-label">Nombres</label>
+                                <input type="text" class="form-control" name="nombres" placeholder="escriba sus Nombres" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Apellido"  class="col-form-label">Apellidos</label>
+                                <input type="text" class="form-control" name="apellidos" placeholder="escriba sus Apellidos" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="documento"  class="col-form-label">Documento</label>
+                                <input type="text" class="form-control" name="documento" placeholder="escriba su Documento" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="edad" class="col-form-label">edad</label>
+                                <input type="number" class="form-control" name="edad" placeholder="escriba su edad" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono" name="contacto" class="col-form-label">telefono</label>
+                                <input type="number" class="form-control" name="telefono" placeholder="escriba su telefono" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Contraseña" name="password" class="col-form-label">contraseña</label>
+                                <input type="password" class="form-control" name="password" placeholder="escriba una contraseña" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="rol" name="admin" class="col-form-label">Rol</label>
+                                <input type="text" class="form-control" name="rol" placeholder="" value="admin">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                </form>
+
+            </div>
+          
+        </div>
+    </div>
+</div>
            
 
         </ul>
