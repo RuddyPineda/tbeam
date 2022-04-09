@@ -46,7 +46,7 @@
       </div>
       <div>
         <hr>
-        <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 1: Video Conociendo Gmail</h2>
+        <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 3: Video personalizando Gmail</h2>
       </div>  
       <hr>
       <div class="row">

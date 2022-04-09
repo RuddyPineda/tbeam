@@ -47,7 +47,7 @@
             </div>
             <div>
                 <hr>
-                <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 2: Diapositivas crer tu cuenta Gmaill</h2>
+                <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center; background:#28a745 !important">MODULO 3: diapositivas personalizacion Gmail.</h2>
             </div>
             <hr>
             <div class="row">

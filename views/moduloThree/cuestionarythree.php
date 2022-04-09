@@ -46,7 +46,7 @@
             </div>
             <div>
                 <hr>
-                <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center">CUESTIONARIO: Conceptos Generales de Gmail.</h2>
+                <h2 class="d-block bg-info text-white font-italic p-2 " style="text-align:center">CUESTIONARIO: personalizacion Gmail.</h2>
             </div>
             <hr>
             <div class="row">
