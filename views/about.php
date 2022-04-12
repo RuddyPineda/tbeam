@@ -67,26 +67,29 @@
                             <article>
                                 <h4>Desarrollo personal</h4>
                                 <p>
-                                    breve descripcion del articulo  jansjnaolndlodnaqdbhafbwhfb akjsnalkndbfwjbd jdnkja
+                                como plataforma de enseñanza sabemos desde años que el aprendizaje constante de diferentes herramientas que esten a nuestro alrededor nos enriquece la vida de diferentes maneras y es que si bien se sabe, el mundo moderno esta dejando atras aquellas personas que por distintos motivos desconocen todos los beneficios de los medios tecnologicos.
                                 </p>
-                                    <a href="" class="leer-mas">leer mas</a>
+                                    <a href="desarrolloPersonal.php" class="leer-mas">leer mas</a>
                             </article>
+                            <HR></HR>
 
                             <article>
-                             <h4>nuestro equipo</h4>
+                             <h4>Nuestro equipo</h4>
                                 <p>
-                                Tbeam es un proyecto que inicia con 4 estudiantes de la tecnologia de analisis y desarrollo de sistemas de informacion del servicio nacional de aprendizaje, que vieron la necesidad de implementar un sistema educativo pensado para las personas que necesitan una ayuda para sus pequeñas inquietudes entre los principales dispositivos moviles y portatiles. grupo conformado por el analista carlos adrian martinez de 26 años, analista miller valentierra cuero de 29 año, analista ruddy pineda de 26 años de edad y nicolas gamboa desarrollador grafico de 30 años de edad. 
+                                Tbeam es un proyecto que inicia con 3 estudiantes de la tecnologia de analisis y desarrollo de sistemas de informacion del servicio nacional de aprendizaje, que vieron la necesidad de implementar un sistema educativo pensado para las personas que necesitan una ayuda para sus pequeñas inquietudes entre los principales dispositivos moviles y portatiles. grupo conformado por el analista carlos adrian martinez de 26 años, analista miller valentierra cuero de 29 año, analista ruddy pineda de 26 años de edad y nicolas gamboa desarrollador grafico de 30 años de edad. 
                                 </p>
-                                <a href="" class="leer-mas">leer mas</a>
+                                <a href="nuestroEquipo.php" class="leer-mas">leer mas</a>
+                          </article>
+                          <hr> 
+                          <article>
+                             <h4>Compromiso Social</h4>
+                                <p>
+                                La responsabilidad social se construye mediante las reacciones, respuestas o sugerencias que les hacen llegar sus grupos de interés 
+                                </p>
+                                <a href="compromisoSocial.php" class="leer-mas">leer mas</a>
                           </article>
 
-                           <article>
-                                <h4>Compromiso social<C/h4>
-                                <p>
-                                    breve descripcion del articulo oijoiwjejndqjdjqndejqnadkjnsknKSNkswjqdb
-                               </p>
-                                    <a href="" class="leer-mas">leer mas</a>
-                           </article>
+                           
                       </div>
                   </div>
               </div>
@@ -104,8 +107,6 @@
                 </div>
             </div>
         </div>
-            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     </footer>
     
 </body>

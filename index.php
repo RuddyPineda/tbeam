@@ -184,12 +184,14 @@
                                 <label for="Apellido"  class="col-form-label">Apellidos</label>
                                 <input type="text" class="form-control" name="apellidos" placeholder="escriba sus Apellidos" required>
                             </div>
-                            <div class="form-group">
+                            
+                         <div class="form-group">
                                 <label for="Edad"  class="col-form-label">Documento</label>
                                 <input type="number" class="form-control" name="documento" placeholder="escriba su Documento" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
+                            
                             <div class="form-group">
                                 <label for="documento" class="col-form-label">edad</label>
                                 <input type="number" class="form-control" name="edad" placeholder="escriba su edad" required>
@@ -205,6 +207,12 @@
                             <div class="form-group">
                                 <input type="hidden" class="form-control" name="rol" placeholder="" value="usuario">
                             </div>
+                            <!--<select class="custom-select" id="inputGroupSelect01">
+                                 <option selected>rol</option>
+                                 <option value="1">usuario</option>
+                                 <option value="2">Administrador</option>
+                               </select>-->
+
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Aceptar</button>
@@ -212,6 +220,7 @@
                 </form>
 
             </div>
+            
           
         </div>
     </div>

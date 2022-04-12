@@ -44,6 +44,7 @@
                 <header class="publicaciones">
                       <H1 class="d-block">Tecnologia Basica Para La Adultez Media</H1>
                       <hr>
+                      
                     <article class="post">
                         <a href="" class="enlace-post"> </a>
                            <h2 class="titulo-post">HISTORIA</h2>
